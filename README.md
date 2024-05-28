@@ -29,10 +29,10 @@ Python application that implements two algorithms for solving the motif finding 
 
 2. Choose the input method:
 
-- Option 1: Read sequences from a file named rawDNA.txt.
-- Option 2: Generate random sequences.
+   - Option 1: Read sequences from a file named rawDNA.txt.
+   - Option 2: Generate random sequences.
   
-3.Follow the prompts to enter the pattern length, number of sequences, and sequence length.
+3. Follow the prompts to enter the pattern length, number of sequences, and sequence length.
 
 ## Input File Format
 If you choose to read input from a file, ensure the file rawDNA.txt follows this format:
