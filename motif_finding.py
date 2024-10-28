@@ -11,7 +11,7 @@ def brute_force_motif_search(dna, t, n, l):
 
     for _ in range(total_iterations):
         current_motifs = []
-        profile_matrix = {'A': [0]*l, 'C': [0]*l, 'G': [0]*l, 'T': [0]*l}  # Initialize profile matrix with empty lists
+        profile_matrix = {'A': [0]*l, 'C': [0]*l, 'G': [0]*l, 'T': [0]*l}
         for i in range(t):
             current_sequence = dna[i]
             start = s[i]  # Start index
